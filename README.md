@@ -1,3 +1,8 @@
 # EFDC-YOLO
 
 Most existing deep learning methods are confined to single-scenario detection or coarse-grained binary classification tasks (fire/non-fire), often overlooking the critical value of fine-grained fire type classification in smart city development. However, when confronting flame targets with significant scale variations, existing models face severe challenges regarding feature extraction and multi-scale adaptability, impeding precise detection. Addressing these issues, we propose EFDC-YOLO, an improved framework built upon YOLOv8. Specifically, we integrate a Dynamic Ghost convolution module with SS2D (DGSS) into the backbone network and embed a Strip Large Kernel Module (SLSM) into the neck network. By effectively capturing discriminative spatial context information and enhancing multi-scale feature representation capabilities, this architecture significantly elevates the model's recognition precision and robustness. Experimental results demonstrate that EFDC-YOLO outperforms the original YOLOv8, achieving $mAP_{0.5}$ improvements of 3.2\% and 1.7\% on the public $\rm M^{4}SFWD$ dataset and our self-constructed dataset, respectively. These results robustly demonstrate the immense potential of EFDC-YOLO for achieving high-precision, multi-type fire monitoring in complex real-world scenarios.
+
+
+The dataset can be obtained from the following link
+
+https://drive.google.com/file/d/1RctBXLo9dNY2b19nMJUj1tUdUOmuT4cZ/view?usp=sharing
